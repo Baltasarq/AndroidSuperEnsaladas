@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ui.MainActivity">
 
     <!-- Tipo de ensalada -->
     <LinearLayout
@@ -59,7 +59,7 @@
             android:layout_weight=".1" />
     </LinearLayout>
 
-    <!-- Condimentos -->
+    <!-- CONDIMENTO -->
     <LinearLayout
         android:layout_margin="10dp"
         android:padding="10dp"
