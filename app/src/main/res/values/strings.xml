@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SuperEnsaladas</string>
+    <string name="msgTipo">Tipo</string>
 </resources>
