@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!-- Tipo de ensalada -->
     <LinearLayout
         android:layout_margin="10dp"
         android:padding="10dp"
@@ -24,13 +25,104 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight=".8"/>
-        <Button
+        <Button     android:id="@+id/btEligeTipo"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
             android:text="Elige"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight=".1">
+            android:layout_weight=".1" />
+    </LinearLayout>
 
+    <!-- Salsa -->
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="Salsa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1"/>
+        <TextView   android:id="@+id/lblSalsa"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".8"/>
+        <Button     android:id="@+id/btEligeSalsa"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="Elige"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1" />
+    </LinearLayout>
+
+    <!-- Condimentos -->
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="Especial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1"/>
+        <TextView   android:id="@+id/lblEspecial"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".8"/>
+        <Button     android:id="@+id/btEligeEspecial"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="Elige"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1" />
+    </LinearLayout>
+
+    <!-- Selección final -->
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="Final"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1"/>
+        <TextView   android:id="@+id/lblFinal"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".9"/>
+    </LinearLayout>
+
+    <!-- Precio total -->
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="Total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1"/>
+        <TextView   android:id="@+id/lblTotal"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".9"/>
         </Button>
     </LinearLayout>
 
