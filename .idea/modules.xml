@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AndroidSuperEnsaladas.iml" filepath="$PROJECT_DIR$/AndroidSuperEnsaladas.iml" />
+      <module fileurl="file://$USER_HOME$/Dropbox/Prys/Android/AndroidSuperEnsaladas/AndroidSuperEnsaladas.iml" filepath="$USER_HOME$/Dropbox/Prys/Android/AndroidSuperEnsaladas/AndroidSuperEnsaladas.iml" />
+      <module fileurl="file://$USER_HOME$/Dropbox/Prys/Android/AndroidSuperEnsaladas/app/app.iml" filepath="$USER_HOME$/Dropbox/Prys/Android/AndroidSuperEnsaladas/app/app.iml" />
     </modules>
   </component>
 </project>

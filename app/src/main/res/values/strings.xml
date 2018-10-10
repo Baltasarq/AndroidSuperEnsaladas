@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">SuperEnsaladas</string>
     <string name="msgTipo">Tipo</string>
+    <string name="msgTotal">Total</string>
+    <string name="msgFinal">Final</string>
+    <string name="msgElige">Elige</string>
+    <string name="msgEspecial">Especial</string>
+    <string name="msgSalsa">Salsa</string>
 </resources>
